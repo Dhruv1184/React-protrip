@@ -8,12 +8,10 @@ const Form = () => {
     const [contact, setContact ] = useState('')
     const [email, setEmail ] = useState('')
   
-    // const [data, setData] = useState([]);
     const [error,seterror] = useState({})
     const [ValidiInput,setVAlidInput] = useState(false)
   
     const HandleOnChange = e => {
-      // console.log(e.target.name);
       if(e.target.name == "firstName"){
         setFirstName(e.target.value)
         console.log(firstName)
