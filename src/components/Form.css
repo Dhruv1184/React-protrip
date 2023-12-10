@@ -1,0 +1,25 @@
+p{
+    color: red;
+}
+body{
+    background-color: gray;
+}
+.Body{
+    padding: 3vh;
+    width: max-content;
+    margin: 10vh auto;
+    background-color: white;
+    
+}
+input{
+    font-size: 4vh;
+    padding: 2vh;
+}
+.Submit{
+    margin: 2vh 30%;
+    font-size: 4vh;
+    background-color: green;
+    color: white;
+    padding:1vh;
+    border-radius: 1vh;
+}
